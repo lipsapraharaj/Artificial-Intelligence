@@ -1,4 +1,4 @@
-sumlist([],0).   % Base case
+sumlist([],0).  
   
-sumlist([H|T],S):- sumlist(T,R1),   % Recursive case
-                   S is H+R1.
+sumlist([H|T],S):- sumlist(T,S1),   
+                   S is H+S1.
